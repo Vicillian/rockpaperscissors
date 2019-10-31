@@ -4,7 +4,12 @@
 
 //GLOBAL VARIABLES
 /* global $ */
+$("#shoot").click(function(){
+    let usermove = $("#input").val();
+    $("#userChoice").append(usermove);
+    let cpmove = $("Rock").val();
 
+});
 
 
 // DOCUMENT READY FUNCTION BELOW
